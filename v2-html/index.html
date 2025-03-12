@@ -10,9 +10,29 @@
     <!-- Pico.css -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.pumpkin.css"
     >
   </head>
+
+  <style>
+    header.container,
+    footer.container,
+    main.container {
+      max-inline-size: min(90%, 54ch);
+    }
+
+    h1 {
+      font-family: serif;
+      font-size: 4.5rem;
+      color: var(--pico-primary);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--pico-primary);
+    }
+
+
+    </style>
 
   <body>
     <!-- Header -->
